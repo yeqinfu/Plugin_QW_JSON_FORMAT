@@ -32,8 +32,8 @@
     <!-- Add your actions here -->
     <action id="testid.yeqinfu" class="com.yeqinfu.test.TranslateClass" text="QW_JSON_FROMAT"
             description="针对都教授的接口文档的生成插件">
-      <add-to-group group-id="CodeMenu" anchor="first"/>
-      <keyboard-shortcut keymap="$default" first-keystroke="meta T"/>
+      <add-to-group group-id="CodeMenu" anchor="last"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="meta 3" second-keystroke="meta 2"/>
     </action>
   </actions>
 
