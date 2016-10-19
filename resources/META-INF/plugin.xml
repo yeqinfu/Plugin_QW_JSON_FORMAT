@@ -1,18 +1,12 @@
 <idea-plugin version="2">
   <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <name>QW_plugin</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="990761790@qq.com" url="http://www.yeqinfu.com">yeqinfu个人</vendor>
 
-  <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
-    ]]></description>
+  <description>这个插件包括xml生成android annotatiosn 和 都教授的接口字符串转变量</description>
 
-  <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
-    ]]>
+  <change-notes>新增android annotations plugin
   </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
