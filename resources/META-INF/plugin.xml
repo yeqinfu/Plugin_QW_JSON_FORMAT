@@ -35,6 +35,11 @@
       <add-to-group group-id="CodeMenu" anchor="last"/>
       <keyboard-shortcut keymap="$default" first-keystroke="meta 3" second-keystroke="meta 2"/>
     </action>
+
+    <action id="com.yeqinfu.androidannotations" class="com.yeqinfu.test.Action_AndroidAnnotations"
+            text="PreaserAndroidAnnotations" description="把xml文件生成androidannotations注解">
+      <add-to-group group-id="GenerateGroup" anchor="last"/>
+    </action>
   </actions>
 
 
