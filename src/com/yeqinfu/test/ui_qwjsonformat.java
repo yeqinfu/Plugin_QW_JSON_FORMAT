@@ -22,9 +22,9 @@ public class ui_qwjsonformat  {
         initUIAction();
     }
     public void initUIAction(){
-        frame = new JFrame("ui_qwjsonformat");
+        frame = new JFrame("都教授To变量");
         frame.setContentPane(jpanel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.pack();
         Dimension screensize = Toolkit.getDefaultToolkit().getScreenSize();
         int Swing1x = 500;

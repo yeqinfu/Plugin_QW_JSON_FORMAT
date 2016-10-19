@@ -24,13 +24,13 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="testid.yeqinfu" class="com.yeqinfu.test.TranslateClass" text="QW_JSON_FROMAT"
+    <action id="testid.yeqinfu" class="com.yeqinfu.test.TranslateClass" text="QW_format_json"
             description="针对都教授的接口文档的生成插件">
       <add-to-group group-id="GenerateGroup" anchor="last"/>
     </action>
 
     <action id="com.yeqinfu.androidannotations" class="com.yeqinfu.test.Action_AndroidAnnotations"
-            text="PreaserAndroidAnnotations" description="把xml文件生成androidannotations注解">
+            text="QW_PreaserAndroidAnnotations" description="把xml文件生成androidannotations注解">
       <add-to-group group-id="GenerateGroup" anchor="last"/>
     </action>
   </actions>
