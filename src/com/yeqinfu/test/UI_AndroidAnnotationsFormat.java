@@ -1,5 +1,10 @@
 package com.yeqinfu.test;
 
+import com.intellij.openapi.ui.Messages;
+import com.yeqinfu.test.utils.Utils_XmlPraser;
+import org.dom4j.Document;
+import org.dom4j.Element;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -13,14 +18,17 @@ public class UI_AndroidAnnotationsFormat {
     private JButton button1;
     private JPanel jpanel;
     JFrame frame;
+
     public void showDialog() {
         frame.setVisible(true);
     }
-    public UI_AndroidAnnotationsFormat(){
+
+    public UI_AndroidAnnotationsFormat() {
         super();
         initUIAction();
     }
-    public void initUIAction(){
+
+    public void initUIAction() {
         frame = new JFrame("ui_qwjsonformat");
         frame.setContentPane(jpanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -33,14 +41,24 @@ public class UI_AndroidAnnotationsFormat {
             @Override
             public void actionPerformed(ActionEvent e) {
                 makeFile();
-                frame.dispose();
             }
 
 
         });
     }
+
     private void makeFile() {
 
+        String str = textArea1.getText();
+        Document document = Utils_XmlPraser.xmlToDocument(str);
+        if (document!=null){
+            // 获取根节点元素对象
+            Element root = document.getRootElement();
+            String result = Utils_XmlPraser.elementFindId(root);
+            textArea1.setText(result);
+        }else{
+            Messages.showMessageDialog("爷,你xml格式错误啦,我解释不了", "Information", Messages.getInformationIcon());
+        }
     }
 
     private formatInterface interfaceInsert;
@@ -53,7 +71,7 @@ public class UI_AndroidAnnotationsFormat {
         this.interfaceInsert = interfaceInsert;
     }
 
-    interface formatInterface{
+    interface formatInterface {
         void insertResult(String insertStr);
     }
 }
