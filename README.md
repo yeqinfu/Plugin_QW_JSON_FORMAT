@@ -1,4 +1,6 @@
 # Plugin_QW_JSON_FORMAT
-一个是接口简单字符串转化，一个是xml生成androidannotations注解
-![](test.gif)
+一个是xml生成androidannotations注解
 ![](2.gif)
+
+一个是接口简单字符串转化，
+![](test.gif)
