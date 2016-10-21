@@ -1,10 +1,5 @@
 package com.yeqinfu.test;
 
-import com.intellij.openapi.ui.Messages;
-import com.yeqinfu.test.utils.Utils_XmlPraser;
-import org.dom4j.Document;
-import org.dom4j.Element;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
