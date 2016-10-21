@@ -12,7 +12,7 @@ import com.intellij.openapi.project.Project;
 /**
  * Created by yeqinfu on 8/4/16.
  */
-public class TranslateClass extends AnAction {
+public class Action_PraserQWJSON extends AnAction {
     private Editor mEditor;
     private Project mProject;
     @Override

@@ -24,7 +24,7 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="testid.yeqinfu" class="com.yeqinfu.test.TranslateClass" text="QW_format_json"
+    <action id="com.yeqinfu.action_praserjson" class="com.yeqinfu.test.Action_PraserQWJSON" text="QW_format_json"
             description="针对都教授的接口文档的生成插件">
       <add-to-group group-id="GenerateGroup" anchor="last"/>
     </action>
@@ -33,6 +33,10 @@
             text="QW_PreaserAndroidAnnotations" description="把xml文件生成androidannotations注解">
       <add-to-group group-id="GenerateGroup" anchor="last"/>
     </action>
+      <action id="com.yeqinfu.Action_TalkingData" class="com.yeqinfu.test.Action_TalkingData"
+              text="QW_PraserTalkingData" description="普通字符串转talkingdata">
+          <add-to-group group-id="GenerateGroup" anchor="last"/>
+      </action>
   </actions>
 
 
