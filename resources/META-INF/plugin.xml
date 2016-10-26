@@ -38,10 +38,15 @@
           <add-to-group group-id="GenerateGroup" anchor="last"/>
       </action>
 
-      <action id="MVPHelper.MVPHelperAction" class="com.yeqinfu.test.mvp.MVPHelperAction" text="QW_MVPHelper"
+     <!--
+       <action id="MVPHelper.MVPHelperAction" class="com.yeqinfu.test.mvp.MVPHelperAction" text="QW_MVPHelper"
               description="help you to create contract of MVP">
         <add-to-group group-id="GenerateGroup" anchor="first"/>
         <keyboard-shortcut keymap="$default" first-keystroke="meta 1"/>
+      </action>-->
+      <action id="com.yeqinfu.qwmvphelper" class="com.yeqinfu.test.mvp.Action_QWMVPhelper" text="QW_MVPhelper"
+              description="生成model接口,view接口等还有对应实现类">
+          <add-to-group group-id="GenerateGroup" anchor="last"/>
       </action>
   </actions>
 
