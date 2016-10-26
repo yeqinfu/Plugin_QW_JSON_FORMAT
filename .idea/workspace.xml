@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89648407-16ad-4379-904a-d6cc13871688" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/yeqinfu/test/mvp/Action_QWMVPhelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yeqinfu/test/mvp/ClassCreateHelper.java" afterPath="$PROJECT_DIR$/src/com/yeqinfu/test/mvp/ClassCreateHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yeqinfu/test/mvp/MVPHelperAction.java" afterPath="$PROJECT_DIR$/src/com/yeqinfu/test/mvp/MVPHelperAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/plugin_test/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/out/production/plugin_test/META-INF/plugin.xml" />
     </list>
     <ignored path="plugin_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -504,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477042034832</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="!添加mvp action">
+      <created>1477451106418</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1477451106418</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
